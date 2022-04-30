@@ -1,0 +1,16 @@
+img {
+    transition:transform 0.4s ease;
+}
+
+img:hover {
+    -webkit-transform:scale(1.15); /* or some other value */
+    transform:scale(1.15);
+}
+
+body{
+    background-color: rgb(240, 57, 57);
+}
+.carousel {
+   width: 700px;
+   right: 300px;
+}
